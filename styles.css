@@ -51,7 +51,7 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.nav a:hover, .nav a.selected {
   color: white
 }
 
@@ -118,6 +118,28 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+/************************
+PAGE: CONTACT
+************************/
+.contact-info{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position:left center;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+.contact-info li.mail a {
+  background-image: url('images/mail.png');
 }
 
 footer {
@@ -187,6 +209,10 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
+  /*selected nav link
+  nav a.selected, nav a:hover{
+    color: #ff7e5f;
+  }*/
 
 
   main {
