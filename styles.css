@@ -70,11 +70,20 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+.slu-image{
+  margin-top: 5px;
+  margin-left: 150px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
 }
 .tag {
   background-color: #efefef;
@@ -209,11 +218,6 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px;
   }
-  /*selected nav link
-  nav a.selected, nav a:hover{
-    color: #ff7e5f;
-  }*/
-
 
   main {
     padding-top: 20px;
